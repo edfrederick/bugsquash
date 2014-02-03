@@ -12,32 +12,18 @@
         bg.setAnchorPoint(new cc.Point(0.0, 0.0));
         this.addChild(bg);
 
-        var bug = new cc.Sprite();
-        bug.initWithFile("./resources/art/windows-bug.png", cc.rect(0, 0, 80, 80));
-        bug.setAnchorPoint(new cc.Point(0.5, 0.5));
-        bug.setPosition(new cc.Point(s.width / 2, s.height / 2));
-        bug.setScale(0.5);
-        this.addChild(bug);
+//        var bug = new cc.Sprite();
+//        bug.initWithFile("./resources/art/windows-bug.png", cc.rect(0, 0, 80, 80));
+//        bug.setAnchorPoint(new cc.Point(0.5, 0.5));
+//        bug.setPosition(new cc.Point(s.width / 2, s.height / 2));
+//        bug.setScale(0.5);
 
-
-        //var helloLabel = cc.LabelTTF.create("Hello world", "Arial", 30);
-        //helloLabel.setPosition(new cc.Point(s.width / 2, s.height / 2));
-        //helloLabel.setColor(new cc.Color3B(255, 0, 0));
-        //var rotationAmount = 0;
-        //var scale = 1;
-        //helloLabel.schedule(function () {
-        //    this.setRotation(rotationAmount++);
-        //    if (rotationAmount > 360)
-        //        rotationAmount = 0;
-        //    this.setScale(scale);
-        //    scale += 0.05;
-        //    if (scale > 10)
-        //        scale = 1;
-        //});
-
-        //layer1.addChild(helloLabel);
-        //this.addChild(bg);
-
+        for(x = 0; x <= 10; x++)
+        {
+            var bug = new BugActor();
+            bug.init();
+            this.addChild(bug);
+        }
 
         return true;
     }

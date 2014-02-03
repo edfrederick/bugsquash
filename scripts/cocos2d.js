@@ -11,7 +11,8 @@
         engineDir: 'cocos2d/',
         appFiles: ['scripts/resource.js',
                    'scripts/scenes/MainMenu.js',
-                   'scripts/scenes/GamePlay.js']
+                   'scripts/scenes/GamePlay.js',
+                   'scripts/actors/BugActor.js']
     };
     window.addEventListener('DOMContentLoaded', function () {
         //first load engine file if specified
