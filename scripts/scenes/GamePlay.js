@@ -49,7 +49,7 @@
         this.score += amount;
         this.removeChild(this.scoreLabel);
         var s = cc.Director.getInstance().getWinSize();
-        var lbl = this.scoreLabel = cc.LabelTTF.create("Score: " + this.score, "Helvetica", 40);
+        var lbl = this.scoreLabel = cc.LabelTTF.create("Score: 0" + this.score, "Helvetica", 40);
         lbl.setPosition(new cc.Point(40, s.height - 80)); //vertically center the label
         //titlelabel.setDimensions(new cc.Size(s.width, 40));
         lbl.setHorizontalAlignment(cc.TEXT_ALIGNMENT_LEFT);
