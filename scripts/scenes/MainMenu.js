@@ -49,6 +49,12 @@ var MainMenuLayer = cc.Layer.extend(
                     scaleFactor *= -1;
             });
 
+            var ladybug = new cc.Sprite();
+            ladybug.initWithFile(s_LadybugStart, cc.rect(0, 0, 462, 340));
+            ladybug.setPosition(new cc.Point(s.width / 2, s.height / 4));
+            ladybug.setAnchorPoint(new cc.Point(0.5, 0.5));
+            this.addChild(ladybug);
+
             //load and position the menu item
             cc.MenuItemFont.setFontSize(24);
             cc.MenuItemFont.setFontName("Arial");
@@ -72,6 +78,8 @@ var MainMenuLayer = cc.Layer.extend(
         {
             var scene = new GamePlayScene();
             var layer = new GamePlay();
+            //initialize the score
+            layer.score = 0;
             scene.addChild(layer, 0);
             //cc.Director.pushScene(cc.TransitionSlideInT.create(1, scene));
             cc.Director.getInstance().replaceScene(cc.TransitionCrossFade.create(0.5, scene));
