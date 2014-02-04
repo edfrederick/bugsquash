@@ -22,6 +22,7 @@
         {
             var bug = new BugActor();
             bug.init();
+            bug.name = "bug" + x;
             this.addChild(bug);
         }
 

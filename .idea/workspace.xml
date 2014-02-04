@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7456db7e-42d9-4707-af75-0f3a8ba0b13e" name="Default" comment="" />
+    <list default="true" id="7456db7e-42d9-4707-af75-0f3a8ba0b13e" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scripts/actors/BugActor.js" afterPath="$PROJECT_DIR$/scripts/actors/BugActor.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scripts/scenes/GamePlay.js" afterPath="$PROJECT_DIR$/scripts/scenes/GamePlay.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
     <ignored path="WebApplication1.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -44,7 +49,7 @@
       <file leaf-file-name="MainMenu.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/scripts/scenes/MainMenu.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="77" column="57" selection-start="3120" selection-end="3120" vertical-scroll-proportion="0.0" vertical-offset="795" max-vertical-offset="1440">
+            <state line="49" column="15" selection-start="1947" selection-end="1947" vertical-scroll-proportion="0.0" vertical-offset="510" max-vertical-offset="1440">
               <folding />
             </state>
           </provider>
@@ -53,25 +58,25 @@
       <file leaf-file-name="GamePlay.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/scripts/scenes/GamePlay.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="22" column="19" selection-start="839" selection-end="839" vertical-scroll-proportion="0.0" vertical-offset="99" max-vertical-offset="675">
+            <state line="25" column="0" selection-start="916" selection-end="916" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="690">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BugActor.js" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="BugActor.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/scripts/actors/BugActor.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="33" column="52" selection-start="1441" selection-end="1441" vertical-scroll-proportion="0.0" vertical-offset="354" max-vertical-offset="690">
+            <state line="76" column="0" selection-start="3514" selection-end="3514" vertical-scroll-proportion="0.94152045" vertical-offset="657" max-vertical-offset="1245">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="24" selection-start="298" selection-end="298" vertical-scroll-proportion="0.18292683" vertical-offset="0" max-vertical-offset="820">
+            <state line="10" column="42" selection-start="316" selection-end="316" vertical-scroll-proportion="-6.25" vertical-offset="0" max-vertical-offset="240">
               <folding>
                 <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -96,6 +101,9 @@
       <setting name="OPEN_NEW_TAB" value="false" />
     </FindUsagesManager>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
@@ -108,15 +116,15 @@
         <option value="$PROJECT_DIR$/scripts/scenes/MainMenu.js" />
         <option value="$PROJECT_DIR$/scripts/actors/bug.js" />
         <option value="$PROJECT_DIR$/scripts/cocos2d.js" />
-        <option value="$PROJECT_DIR$/scripts/actors/BugActor.js" />
         <option value="$PROJECT_DIR$/scripts/scenes/GamePlay.js" />
+        <option value="$PROJECT_DIR$/scripts/actors/BugActor.js" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
     <option name="y" value="22" />
-    <option name="width" value="2560" />
-    <option name="height" value="1330" />
+    <option name="width" value="1440" />
+    <option name="height" value="822" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -137,7 +145,7 @@
       </profile-state>
     </entry>
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
     <OptionsSetting value="true" id="Remove" />
     <OptionsSetting value="true" id="Checkout" />
@@ -386,7 +394,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="22" width="2560" height="1330" extended-state="6" />
+    <frame x="0" y="22" width="1440" height="822" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -394,8 +402,8 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.26693228" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17226562" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.30848533" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.15" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2815405" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -423,7 +431,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="2" />
+      <option name="time" value="4" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
@@ -451,13 +459,6 @@
     <entry file="file://$PROJECT_DIR$/scripts/main.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="33" column="0" selection-start="1306" selection-end="1306" vertical-scroll-proportion="0.0" vertical-offset="195" max-vertical-offset="720">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scripts/scenes/MainMenu.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="77" column="57" selection-start="3120" selection-end="3120" vertical-scroll-proportion="0.0" vertical-offset="795" max-vertical-offset="1440">
           <folding />
         </state>
       </provider>
@@ -490,27 +491,39 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="42" selection-start="316" selection-end="316" vertical-scroll-proportion="-6.25" vertical-offset="0" max-vertical-offset="240">
+          <folding>
+            <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/art/windows-bug.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/scripts/scenes/GamePlay.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="19" selection-start="839" selection-end="839" vertical-scroll-proportion="0.0" vertical-offset="99" max-vertical-offset="675">
+        <state line="25" column="0" selection-start="916" selection-end="916" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="690">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/scenes/MainMenu.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="49" column="15" selection-start="1947" selection-end="1947" vertical-scroll-proportion="0.0" vertical-offset="510" max-vertical-offset="1440">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/scripts/actors/BugActor.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="33" column="52" selection-start="1441" selection-end="1441" vertical-scroll-proportion="0.0" vertical-offset="354" max-vertical-offset="690">
+        <state line="76" column="0" selection-start="3514" selection-end="3514" vertical-scroll-proportion="0.94152045" vertical-offset="657" max-vertical-offset="1245">
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="24" selection-start="298" selection-end="298" vertical-scroll-proportion="0.18292683" vertical-offset="0" max-vertical-offset="820">
-          <folding>
-            <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
